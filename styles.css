@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+#jsonOutput, #timingOutput {
+    white-space: pre;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+canvas {
+    border: 1px solid #000;
+    max-width: 100%;
+}
+
+#timingOutput {
+    font-weight: bold;
+}
+
+#jsonOutput {
+    color: #333;
+}
+
+#timingOutput {
+    color: #007bff;
+}
